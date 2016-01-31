@@ -4,12 +4,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "General", "General\General.vbproj", "{8858FF6F-C6D9-49C5-A7BD-A639C8DA941E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{01B14329-7D02-4F6D-9CCA-25C094FD346F} = {01B14329-7D02-4F6D-9CCA-25C094FD346F}
+		{07BB284D-7AC5-443F-8502-676FC25CE6BF} = {07BB284D-7AC5-443F-8502-676FC25CE6BF}
+	EndProjectSection
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SqlServer", "SqlServer\SqlServer.vbproj", "{71B7BCDD-7B7D-47B4-BBEF-8D45715EE7C5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{01B14329-7D02-4F6D-9CCA-25C094FD346F} = {01B14329-7D02-4F6D-9CCA-25C094FD346F}
+		{07BB284D-7AC5-443F-8502-676FC25CE6BF} = {07BB284D-7AC5-443F-8502-676FC25CE6BF}
+	EndProjectSection
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Encripta", "Encripta\Encripta.vbproj", "{07BB284D-7AC5-443F-8502-676FC25CE6BF}"
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Puebas", "Puebas\Puebas.vbproj", "{7B18B272-7CB5-42A9-8B33-4A97363515E6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{01B14329-7D02-4F6D-9CCA-25C094FD346F} = {01B14329-7D02-4F6D-9CCA-25C094FD346F}
+	EndProjectSection
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Configuraciones", "Configuraciones\Configuraciones.vbproj", "{01B14329-7D02-4F6D-9CCA-25C094FD346F}"
 EndProject

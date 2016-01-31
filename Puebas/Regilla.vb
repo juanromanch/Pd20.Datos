@@ -1,5 +1,5 @@
 Public Class frmRegilla
-    Public conecta As New Pd20.Datos.SQLServer("AJTIENDA\A3ERP", "JR")
+    Public conecta As New Pd20.Datos.SQLServer("AJTIENDA\A3ERP", "DEMO")
     Public usu As String
     Public pass As String
     Public Sub New(u As String, c As String)
@@ -20,7 +20,7 @@ Public Class frmRegilla
     Private Sub ButtonX1_Click(sender As Object, e As EventArgs) Handles ButtonX1.Click
         Dim dt As DataTable
         lCadena.Text = conecta.CadenaConexion
-        dt = conecta.ObtenerDataTableConsulta("SELECT NOMCLI AS CLIENTE, DIRCLI1 AS DIRECCION FROM CLIENTES")
+        dt = conecta.ObtenerDataTableConsulta("SELECT NOMCLI AS CLIENTE, DIRCLI1 AS DIRECCION, POBCLI AS POBLACION FROM CLIENTES")
         Me.DataGridView1.DataSource = dt
 
 

@@ -1,5 +1,5 @@
 ﻿Public Class SQLServer
-    Inherits General.General
+    Inherits Pd20.Datos.General
     Shared ColComandos As New System.Collections.Hashtable()
     ''' <summary>
     ''' 

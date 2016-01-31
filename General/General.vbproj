@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{8858FF6F-C6D9-49C5-A7BD-A639C8DA941E}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>Pd20.Datos.General</RootNamespace>
+    <RootNamespace>Pd20.Datos</RootNamespace>
     <AssemblyName>Pd20.Datos.General</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>Windows</MyType>

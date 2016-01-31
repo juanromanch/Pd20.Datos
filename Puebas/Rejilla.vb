@@ -1,4 +1,4 @@
-Public Class frmRegilla
+Public Class frmRejilla
     Public conecta As New Pd20.Datos.SQLServer("AJTIENDA\A3ERP", "DEMO")
     Public usu As String
     Public pass As String

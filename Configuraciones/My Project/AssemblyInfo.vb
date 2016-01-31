@@ -8,10 +8,10 @@ Imports System.Runtime.InteropServices
 
 ' Revisar los valores de los atributos del ensamblado
 
-<Assembly: AssemblyTitle("Pd20.Configuraciones")>
+<Assembly: AssemblyTitle("Pd20.Configuradores")>
 <Assembly: AssemblyDescription("Crea y lee archivos de configuración de las aplicaciones")>
 <Assembly: AssemblyCompany("Paradigma 2.0")>
-<Assembly: AssemblyProduct("Configuraciones")>
+<Assembly: AssemblyProduct("Configuradores")>
 <Assembly: AssemblyCopyright("Copyright ©  2016 Paradigma 2.0")>
 <Assembly: AssemblyTrademark("Paradigma 2.0")>
 

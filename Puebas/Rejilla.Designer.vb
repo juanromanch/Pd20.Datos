@@ -1,5 +1,5 @@
 <Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class frmRegilla
+Partial Class frmRejilla
     Inherits DevComponents.DotNetBar.OfficeForm
 
     'Form overrides dispose to clean up the component list.
@@ -59,7 +59,7 @@ Partial Class frmRegilla
         Me.DataGridView1.Size = New System.Drawing.Size(700, 278)
         Me.DataGridView1.TabIndex = 3
         '
-        'frmRegilla
+        'frmRejilla
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -68,7 +68,7 @@ Partial Class frmRegilla
         Me.Controls.Add(Me.lCadena)
         Me.Controls.Add(Me.ButtonX1)
         Me.DoubleBuffered = True
-        Me.Name = "frmRegilla"
+        Me.Name = "frmRejilla"
         Me.Text = "Form1"
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)

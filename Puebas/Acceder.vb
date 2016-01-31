@@ -4,8 +4,8 @@ Public Class Acceder
 
     Private Sub OK_Click(sender As Object, e As EventArgs) Handles OK.Click
         'PasswordTextBox.Text = enc.Encriptar(UsernameTextBox.Text)
-        Dim Regilla As New frmRegilla("sa", "A3erp4848")
-        Regilla.Show()
+        Dim Rejilla As New frmRejilla("sa", "A3erp4848")
+        Rejilla.Show()
 
 
 

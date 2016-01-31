@@ -92,10 +92,10 @@
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Regilla.Designer.vb">
-      <DependentUpon>Regilla.vb</DependentUpon>
+    <Compile Include="Rejilla.Designer.vb">
+      <DependentUpon>Rejilla.vb</DependentUpon>
     </Compile>
-    <Compile Include="Regilla.vb">
+    <Compile Include="Rejilla.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -118,8 +118,8 @@
     <EmbeddedResource Include="Acceder.resx">
       <DependentUpon>Acceder.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Regilla.resx">
-      <DependentUpon>Regilla.vb</DependentUpon>
+    <EmbeddedResource Include="Rejilla.resx">
+      <DependentUpon>Rejilla.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

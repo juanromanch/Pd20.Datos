@@ -1,4 +1,4 @@
-﻿Public Class Configuracion
+﻿Public Class Ini
     ' Funciones API
     Private Declare Ansi Function GetPrivateProfileString Lib “kernel32.dll” Alias “GetPrivateProfileStringA” (ByVal lpApplicationName As String, ByVal lpKeyName As String, ByVal lpDefault As String, ByVal lpReturnedString As System.Text.StringBuilder, ByVal nSize As Integer, ByVal lpFileName As String) As Integer
 
@@ -22,11 +22,11 @@
         End Get
     End Property
 
-    Public Function ObtenerString(ByVal Seccion As String, ByVal Clave As String, ByVal [Default] As String) As String
+    Public Function ObtenerString(ByVal Seccion As String, ByVal Clave As String, ByVal Defecto As String) As String
         ' Devuelve una cadena desde tu archivo INI
         Dim intCharCount As Integer
         Dim objResult As New System.Text.StringBuilder(256)
-        intCharCount = GetPrivateProfileString(Seccion, Clave, [Default], objResult, objResult.Capacity, strFilename)
+        intCharCount = GetPrivateProfileString(Seccion, Clave, Defecto, objResult, objResult.Capacity, strFilename)
 
         If intCharCount > 0 Then
             ObtenerString = Left(objResult.ToString, intCharCount)
@@ -36,14 +36,14 @@
         End If
     End Function
 
-    Public Function ObtenerInteger(ByVal Seccion As String, ByVal Clave As String, ByVal [Default] As Integer) As Integer
+    Public Function ObtenerInteger(ByVal Seccion As String, ByVal Clave As String, ByVal Defecto As Integer) As Integer
         ' Devuelve un número desde tu archivo INI
-        Return GetPrivateProfileInt(Seccion, Clave, [Default], strFilename)
+        Return GetPrivateProfileInt(Seccion, Clave, Defecto, strFilename)
     End Function
 
-    Public Function ObtenerBoolean(ByVal Seccion As String, ByVal Clave As String, ByVal [Default] As Boolean) As Boolean
+    Public Function ObtenerBoolean(ByVal Seccion As String, ByVal Clave As String, ByVal Defecto As Boolean) As Boolean
         ' Devuelve un valo lógico desde un archivo INI
-        Return ObtenerString(Seccion, Clave, [Default])
+        Return ObtenerString(Seccion, Clave, Defecto)
     End Function
 
     Public Sub EscrbirString(ByVal Seccion As String, ByVal Clave As String, ByVal Valor As String)
